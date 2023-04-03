@@ -7,3 +7,5 @@
 ![AAPL](https://user-images.githubusercontent.com/90658763/229386040-f324701c-17de-4c06-8362-56344c2937ea.png)
 ## GOOGLE
 ![googl](https://user-images.githubusercontent.com/90658763/229386112-3a6eb66d-5d39-4068-af2a-d784383bed04.png)
+## MICROSOFT
+![MSFT](https://user-images.githubusercontent.com/90658763/229386203-aa45db7d-4390-4547-9996-f23ba9becc69.png)
