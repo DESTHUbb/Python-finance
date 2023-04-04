@@ -39,3 +39,5 @@
 [![YFINANCE](https://user-images.githubusercontent.com/90658763/229842951-932eb469-141b-4820-8413-f86af6977973.png)](https://pypi.org/project/yfinance/)
 ### PANDAS: 
 [![PYDATA](https://user-images.githubusercontent.com/90658763/229839391-d50843f8-bc95-4889-92bf-00240669ccc4.jpg)](https://pandas.pydata.org/)
+### Yahoo Finance:
+[![PYDATA](https://user-images.githubusercontent.com/90658763/229844045-da8933af-9820-456e-8374-a5268a699da8.png)](https://es.finance.yahoo.com/)
