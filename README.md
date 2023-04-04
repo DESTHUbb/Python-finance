@@ -27,4 +27,4 @@
 
 ![MSFT](https://user-images.githubusercontent.com/90658763/229386203-aa45db7d-4390-4547-9996-f23ba9becc69.png)
 
-## It is important to note that in some cases the model may not be accurate due to market volatility and other external factors, and that past results do not guarantee future results¡¡
+## It is important to note that in some cases the model may not be accurate due to market volatility and other external factors, and that past results do not guarantee future results ¡¡
