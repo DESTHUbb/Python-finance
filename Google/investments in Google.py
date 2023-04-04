@@ -14,8 +14,8 @@ googl['SMA'] = googl['Adj Close'].rolling(window=50).mean()
 #An investment strategy is then defined using the model. For example, you can buy the stock if the current price is above the 50-day moving average and sell it if it is below:
 
 googl['position'] = 0
-googl['position'][googl['Adj Close'] > googl['SMA']] = 1
-googl['position'][googl['Adj Close'] < googl['SMA']] = -1
+googl.loc[googl['Adj Close'] > googl['SMA'], 'position'] = 1
+googl.loc[googl['Adj Close'] < googl['SMA'], 'position'] = -1
 googl['position'] = googl['position'].fillna(method='ffill')
 googl['strategy'] = googl['position'].shift(1) * googl['returns']
 
