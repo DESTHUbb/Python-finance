@@ -5,8 +5,7 @@
 
 ## AMAZON
 ### Based on these variables, an investment strategy is defined based on buying the share if its current price is above the 50-day moving average and selling it if it is below. This is done by assigning values ​​to a column called "position" in the Pandas DataFrame, and then the performance of the strategy is calculated in another column called "strategy".
-
-Finally, the performance of the strategy is evaluated and compared to a buy and hold strategy for the stock. The two strategies are plotted using matplotlib and the result is shown.
+### Finally, the performance of the strategy is evaluated and compared to a buy and hold strategy for the stock. The two strategies are plotted using matplotlib and the result is shown.
 ![AMZN](https://user-images.githubusercontent.com/90658763/229384681-4c63d711-f0a3-45fa-a635-b672c5ee8d6f.png)
 
 ## APPLE
