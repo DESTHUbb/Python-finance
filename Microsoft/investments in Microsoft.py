@@ -14,8 +14,8 @@ msft['SMA'] = msft['Adj Close'].rolling(window=50).mean()
 #An investment strategy is then defined using the model. For example, you can buy the stock if the current price is above the 50-day moving average and sell it if it is below:
 
 msft['position'] = 0
-msft['position'][msft['Adj Close'] > msft['SMA']] = 1
-msft['position'][msft['Adj Close'] < msft['SMA']] = -1
+msft.loc[msft['Adj Close'] > msft['SMA'], 'position'] = 1
+msft.loc[msft['Adj Close'] < msft['SMA'], 'position'] = -1
 msft['position'] = msft['position'].fillna(method='ffill')
 msft['strategy'] = msft['position'].shift(1) * msft['returns']
 
