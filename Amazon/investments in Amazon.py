@@ -14,8 +14,8 @@ amzn['SMA'] = amzn['Adj Close'].rolling(window=50).mean()
 #An investment strategy is then defined using the model. For example, you can buy the stock if the current price is above the 50-day moving average and sell it if it is below:
 
 amzn['position'] = 0
-amzn['position'][amzn['Adj Close'] > amzn['SMA']] = 1
-amzn['position'][amzn['Adj Close'] < amzn['SMA']] = -1
+amzn.loc[amzn['Adj Close'] > amzn['SMA'], 'position'] = 1
+amzn.loc[amzn['Adj Close'] < amzn['SMA'], 'position'] = -1
 amzn['position'] = amzn['position'].fillna(method='ffill')
 amzn['strategy'] = amzn['position'].shift(1) * amzn['returns']
 
