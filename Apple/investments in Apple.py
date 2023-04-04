@@ -13,9 +13,10 @@ aapl['SMA']= aapl['Adj Close'].rolling(window=20).mean()
 
 #Afterwards, an investment strategy can be defined using the model. For example, you can buy the stock if the current price is above the 20-day moving average and sell it if it is below:
 
+
 aapl['position'] = 0
-aapl['position'][aapl['Adj Close'] > aapl['SMA']] = 1
-aapl['position'][aapl['Adj Close'] < aapl['SMA']] = -1
+aapl.loc[aapl['Adj Close'] > aapl['SMA'], 'position'] = 1
+aapl.loc[aapl['Adj Close'] < aapl['SMA'], 'position'] = -1
 aapl['position'] = aapl['position'].fillna(method='ffill')
 aapl['strategy'] = aapl['position'].shift(1) * aapl['returns']
 
