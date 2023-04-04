@@ -28,3 +28,4 @@ plt.plot(aapl['cumulative_buy_hold'])
 plt.legend(['investment strategy', 'Purchase and hold'])
 plt.show()
 
+
