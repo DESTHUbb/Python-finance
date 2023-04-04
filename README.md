@@ -24,7 +24,13 @@
 ![googl](https://user-images.githubusercontent.com/90658763/229386112-3a6eb66d-5d39-4068-af2a-d784383bed04.png)
 
 ## MICROSOFT
+### The code is based on loading historical stock price data for Microsoft (MSFT) using the yfinance package, calculating the daily return and the 50-day moving average, defining an investment strategy based on the model, and evaluating the performance of the strategy compared to a buy and hold strategy. Specifically:
 
+### 1- The yfinance package is used to load historical data for MSFT.
+### 2- The daily return and 50-day moving average of the adjusted closing prices are calculated.
+### 3- An investment strategy is defined based on the moving average. If the current price is above the 50-day moving average, the stock is bought, and if it is below, the stock is sold.
+### 4- The performance of the investment strategy is evaluated by calculating the cumulative return and comparing it to the cumulative return of a buy and hold strategy.
+### 5- The cumulative return of the investment strategy and the buy and hold strategy are plotted using the matplotlib library.
 ![MSFT](https://user-images.githubusercontent.com/90658763/229386203-aa45db7d-4390-4547-9996-f23ba9becc69.png)
 
 ## It is important to note that in some cases the model may not be accurate due to market volatility and other external factors, and that past results do not guarantee future results !!!
