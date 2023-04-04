@@ -36,6 +36,6 @@
 ## `It is important to note that in some cases the model may not be accurate due to market volatility and other external factors, and that past results do not guarantee future results !!!` 
 ## Source of information
 ### YFINANCE: 
-https://pypi.org/project/yfinance/
+[![YFINANCE](https://user-images.githubusercontent.com/90658763/229842951-932eb469-141b-4820-8413-f86af6977973.png)](https://pypi.org/project/yfinance/)
 ### PANDAS: 
 [![PYDATA](https://user-images.githubusercontent.com/90658763/229839391-d50843f8-bc95-4889-92bf-00240669ccc4.jpg)](https://pandas.pydata.org/)
