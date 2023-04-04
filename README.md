@@ -9,6 +9,9 @@
 ![AMZN](https://user-images.githubusercontent.com/90658763/229384681-4c63d711-f0a3-45fa-a635-b672c5ee8d6f.png)
 
 ## APPLE
+### The code is based on historical price information for a stock, specifically Apple Stock (AAPL), using the yfinance Python library to download the historical stock data from Yahoo Finance.
+#### The necessary variables for the investment model are calculated, which include the daily performance of the share (returns) and the 20-day simple moving average (SMA). Next, an investment strategy based on the model is defined that consists of buying the stock if the current price is above the 20-day moving average and selling it if it is below.
+
 ![AAPL](https://user-images.githubusercontent.com/90658763/229386040-f324701c-17de-4c06-8362-56344c2937ea.png)
 
 ## GOOGLE
