@@ -38,6 +38,7 @@
 ### YFINANCE: 
 https://pypi.org/project/yfinance/
 ### PANDAS: 
-![https://pandas.pydata.org/](https://user-images.githubusercontent.com/90658763/229836102-75ebc159-476a-4727-90ee-3e755de4f715.png)
+![image](https://user-images.githubusercontent.com/90658763/229836102-75ebc159-476a-4727-90ee-3e755de4f715.png)
+https://pandas.pydata.org/
 
 
